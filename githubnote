@@ -8,7 +8,7 @@ git clone https://github.com/yuqiangCAS/test.git
 git add helloworld 
 
 4. commit
-git commit
+git commit -a
 
 5. 先commit再push
 git push origin master
