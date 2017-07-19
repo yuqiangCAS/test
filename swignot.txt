@@ -1,0 +1,6 @@
+安装swig
+1. 修改环境变量时，用
+PATH="$PATH:/home/liu/swig/swigtool/bin"
+export PATH
+
+
