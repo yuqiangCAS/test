@@ -12,3 +12,6 @@ git commit
 
 5. 先commit再push
 git push origin master
+
+6. 查看状态
+git status
