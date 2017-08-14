@@ -3,4 +3,8 @@
 PATH="$PATH:/home/liu/swig/swigtool/bin"
 export PATH
 
+2.swig -python **.i
+
+3. python setup.py build
+
 
