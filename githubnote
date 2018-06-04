@@ -1,3 +1,4 @@
+常用命令：
 1. 将远程代码更新到本地
 git pull origin master
 
@@ -15,3 +16,16 @@ git push origin master
 
 6. 查看代码库状态
 git status
+
+
+码云中不同场景的用法：
+1. 本地没有，需要将远程的版本库下载到本地
+git config --global user.name "你的名字或昵称"
+git config --global user.email "你的邮箱"
+ssh-keygen -t rsa -C "你的邮箱"（输入之后，连续按回车键，不需要做任何更改，会生成SSH key，存放在系统默认路径下，安装过程中会有提示路径在哪里）
+找到id_rsa.pub文件，打开并复制全部内容
+将SSH key添加到码云账户中
+
+git init 你的目录
+git pull origin master
+执行这两个指令后，你可以修改文件了
